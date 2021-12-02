@@ -1,12 +1,14 @@
 package ericgf13.adventofcode
 
 import ericgf13.adventofcode.days.Day01
+import ericgf13.adventofcode.days.Day02
 import kotlin.system.measureTimeMillis
 
 fun main() {
-    val days = mutableListOf<Day>().apply {
-        add(Day01())
-    }
+    val days = listOf(
+        Day01(),
+        Day02()
+    )
 
     days.forEach {
         val sb = StringBuilder()
