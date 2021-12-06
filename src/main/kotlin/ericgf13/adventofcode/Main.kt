@@ -1,9 +1,6 @@
 package ericgf13.adventofcode
 
-import ericgf13.adventofcode.days.Day01
-import ericgf13.adventofcode.days.Day02
-import ericgf13.adventofcode.days.Day03
-import ericgf13.adventofcode.days.Day06
+import ericgf13.adventofcode.days.*
 import kotlin.system.measureTimeMillis
 
 fun main() {
@@ -11,6 +8,7 @@ fun main() {
         Day01(),
         Day02(),
         Day03(),
+        Day04(),
         Day06()
     )
 
